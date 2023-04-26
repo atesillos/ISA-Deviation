@@ -55,9 +55,11 @@ With these variables we can calculate:
 ## TO-DO:
 - [x] Make a barebones file.
 - [x] Add gradle.
+- [x] Add a badge.
 - [ ] Figure out how to use gradle.
     - [ ] Learn and add JaCoCo.
 - [ ] Firgure out badges.
-- [ ] Add a badge.
+- [ ] Add a working badge.
+- [ ] Make unit tests.
 
 ---
