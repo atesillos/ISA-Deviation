@@ -25,3 +25,7 @@ In flight simulation, one of the things pilots have to do is calculate the devia
 9. Extra credit for additional actions and metrics/badges.
 
 ---
+## Steps
+- [x] Make a barebones file.
+- [x] Add gradle.
+- [ ] Figure out how to use gradle.
