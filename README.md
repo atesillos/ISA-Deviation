@@ -63,3 +63,4 @@ With these variables we can calculate:
 - [ ] Make unit tests.
 
 ---
+## Gradle Notes
