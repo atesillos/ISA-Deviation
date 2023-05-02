@@ -1,7 +1,9 @@
-![example workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
-![push event parameter](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg?event=push)
+> Example Workflow
 
-![workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
+> Event push
+
+![push event parameter](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg?event=push)
 # ISA-Deviation
 COMP 370 Group Activity 4
 
