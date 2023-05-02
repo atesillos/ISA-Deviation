@@ -15,6 +15,4 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - run: cd src
-      - run: cd main
-      - run: cd java
       - run: java main.java
