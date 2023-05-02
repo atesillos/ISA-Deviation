@@ -1,5 +1,5 @@
 name: main
-run-name: main.yml 11 - Making seperate jobs
+
 on: 
   push:
     branches: [main]
@@ -9,21 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    run: cd src
+    run: cd main
+    run: cd java
       - uses: actions/checkout@v3
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
       - run: java main.java
-
-jobs:
-  - run: cd src
-
-jobs:
-  - run: cd main
-
-jobs: 
-  - run: cd java
-
-jobs:
-  - run: java main.java
