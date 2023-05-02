@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: java-latest
+          java-version: '17'
       - run: cd src
       - run: cd main
       - run: cd java
