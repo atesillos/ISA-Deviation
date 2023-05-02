@@ -4,9 +4,8 @@ on:
     branches: [main]
 
 jobs:
-  check-build:
-    build:
-      runs-on: unbuntu-latest
+  build:
+    runs-on: unbuntu-latest
     
     steps:
       - uses: actions/checkout@v3
