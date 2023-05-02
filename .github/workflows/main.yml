@@ -5,8 +5,9 @@ on:
     branches: [main]
 
 jobs:
-  build:
-    runs-on: unbuntu-latest
+  check-build:
+    build:
+      runs-on: unbuntu-latest
     
     steps:
       - uses: actions/checkout@v3
@@ -14,9 +15,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Path
-        - run: cd src
-        - run: cd main
-        - run: cd java
-      - name: Run main
-        run: java main.java
+      - run: cd src
+      - run: cd main
+      - run: cd java
+      - run: java main.java
