@@ -1,4 +1,5 @@
 name: main
+run-main: Running main.java file
 on: 
   push:
     branches: [main]
@@ -13,5 +14,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+      - name: Path
+        run: cd src
+        run: cd main
+        run: cd java
       - name: Run main
         run: java main.java
