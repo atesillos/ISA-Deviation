@@ -1,5 +1,4 @@
 name: main
-run-main: Running main.java file
 on: 
   push:
     branches: [main]
