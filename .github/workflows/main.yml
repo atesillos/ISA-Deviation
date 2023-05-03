@@ -1,4 +1,5 @@
 name: main
+run-name: Checking main.java file.
 on: 
   push:
     branches: [main]
@@ -14,5 +15,5 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      # - run: ./gradlew build
+      - run: cd src/main/java
       - run: java main.java
