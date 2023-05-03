@@ -2,11 +2,6 @@
 
 ![main.java](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
 
-
-> Example of passing
-
-![example workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/learn-github-actions.yml/badge.svg)
-
 > Java w/ Gradle
 
 ![Gradle](https://github.com/atesillos/ISA-Deviation/actions/workflows/javanadgradleCI.yml/badge.svg)
