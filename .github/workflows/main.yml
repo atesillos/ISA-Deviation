@@ -15,4 +15,4 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       # - run: ./gradlew build
-      - run: java main.java'
+      - run: java main.java
