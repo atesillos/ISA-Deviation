@@ -1,13 +1,15 @@
-> Example Workflow
+> main.java
 
-![example workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
-> Event push
+![main.java](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg)
 
-![push event parameter](https://github.com/atesillos/ISA-Deviation/actions/workflows/main.yml/badge.svg?event=push)
 
 > Example of passing
 
 ![example workflow](https://github.com/atesillos/ISA-Deviation/actions/workflows/learn-github-actions.yml/badge.svg)
+
+> Java w/ Gradle
+
+![Gradle](https://github.com/atesillos/ISA-Deviation/actions/workflows/javanadgradleCI.yml/badge.svg)
 
 # ISA-Deviation
 COMP 370 Group Activity 4
